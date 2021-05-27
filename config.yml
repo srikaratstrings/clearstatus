@@ -27,11 +27,10 @@ params:
   disqusShortname: null
   timezoneString: PST
   logo: /images/uploads/wingmanlogo.svg
-  description_header: This status page provides updated information about the
+  description_header: "This status page provides updated information about the
     operational status of various  <a class='text-grey-darkest' title='Wingman'
     href='https://www.trywingman.com/'>Wingman</a> systems. If you are facing an
-    issue that is not reported here, please let us know at
-    support@trywingman.com.
+    issue that is not reported here, please let us know at "
   copyrightHolder: Strings Systems Inc.
   eventsPerPage: 10
   iconType: image/png
