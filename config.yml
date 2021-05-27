@@ -1,63 +1,44 @@
-############################################################
-## Hugo ClearStatus config
-############################################################
-
-# Complete page title
-title: ClearStatus systems status page
-
-# Language config
+title: "Wingman: System status"
+baseURL: ""
 languageCode: en
-
-############################################################
-## More default config. in /config/_default/config.yml
-############################################################
-
-
-############################################################
-## Status default config. Valid for ALL languages.
-############################################################
-
 params:
+  shortDateFormat: 15:04 — Jan 2
+  meta_description: This status page provides updated information about our
+    systems normal operation, incidents that may happen and their resolution. If
+    you are facing an issue that is not reported here, please let us know
+    at 	support@trywingman.com
   systems:
-    - name: Website
-      description: Our company public facing website
-      link: https://www.example.com/
-    - name: Helpdesk
-      description: Our company customer support site
+    - name: AWS (us-east-1)
+      description: "Our cloud infrastructure provider:"
+      link: ""
+    - name: Call Recorders
+      description: Our recording bots which join and record Video Conference Calls
       link: https://support.example.com/
-
-  # dateFormat Default: "January 2, 2006 at 3:04 PM"
-  # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: "January 2, 2006 at 3:04 PM"
-  shortDateFormat: "15:04 — Jan 2"
-  # This string will be displayed after each time displayed
-  # Set it for instance to " UTC" to indicate UTC times
-  # or a specific time zone, ie " America/New_York"
-  # You can also instead used a translated string per language
-  timezoneString: " UTC"
-
-  # Path to logo image from the /static folder.
-  logo: "/images/clearstatus.svg"
-
-  # favicon
-  icon: "/images/clearstatus.png"
-  iconType: "image/png"
-
-  # Descriptions
-  meta_description: "This status page provides updated information about our systems normal operation, incidents that may happen and their resolution."
-  description_footer: "<a class='text-grey-darkest' title='Visit example.com' href='https://www.example.com/'>Example.com</a> provides open-source software for all kind of sectors."
-  description_header: "Information about <a class='text-grey-darkest' title='Visit example.com' href='https://www.example.com/'>example</a> systems operations.<br />Follow us <a class='text-grey-darkest' title='Visit our page on Twitter' href='https://www.twitter.com/example'>on Twitter</a> or subscribe to <a class='text-grey-darkest' href='%s' >RSS</a><br />to be alerted of new events."
-
-  copyrightHolder: "Example Inc."
-
-  # Disqus commenting per issue: set your Disqus shortname here
-  # Leave empty for no discussion at all.
-  # You can also enable/disable discussions per issue
-  disqusShortname:
-
-  # Layout
+    - name: CRM Integrations
+      description: Wingman's integration with CRMs to pull calls and update notes,
+        comments etc
+    - name: Web App
+      link: https://app.trywingman.com
+    - name: Desktop App
+      description: Your friendly desktop helper
+    - name: API
+      description: https://rest-api.trywingman.com
+  dateFormat: January 2, 2006 at 3:04 PM
+  disqusShortname: null
+  timezoneString: PST
+  logo: /images/clearstatus.svg
+  description_header: Information about <a class='text-grey-darkest' title='Visit
+    example.com' href='https://www.example.com/'>example</a> systems
+    operations.<br />Follow us <a class='text-grey-darkest' title='Visit our
+    page on Twitter' href='https://www.twitter.com/example'>on Twitter</a> or
+    subscribe to <a class='text-grey-darkest' href='%s' >RSS</a><br />to be
+    alerted of new events.
+  copyrightHolder: Strings Systems Inc.
   eventsPerPage: 10
-
-############################################################
-## More default config. in /config/_default/params.yml
-############################################################
+  iconType: image/png
+  groups:
+    - CRMIntegrations
+  icon: /images/clearstatus.png
+  description_footer: <a class='text-grey-darkest' title='Visit trywingman.com'
+    href='https://www.trywingman.com/'>Wingman</a> provides the best software
+    for sales professionals to close more deals.
