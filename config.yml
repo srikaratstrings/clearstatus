@@ -1,5 +1,5 @@
 title: "Wingman: Real-time operational status"
-baseURL: ""
+baseURL: https://status.trywingman.com
 languageCode: en
 params:
   shortDateFormat: 15:04 — Jan 2
@@ -31,7 +31,7 @@ params:
     operational status of various  <a class='text-grey-darkest' title='Wingman'
     href='https://www.trywingman.com/'>Wingman</a> systems. If you are facing an
     issue that is not reported here, please let us know at
-    support@trywingman.com
+    support@trywingman.com.
   copyrightHolder: Strings Systems Inc.
   eventsPerPage: 10
   iconType: image/png
