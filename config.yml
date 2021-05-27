@@ -28,7 +28,7 @@ params:
   timezoneString: PST
   logo: /images/uploads/wingmanlogo.svg
   description_header: This status page provides updated information about the
-    operational status of various
+    operational status of various </br>
   copyrightHolder: Strings Systems Inc.
   eventsPerPage: 10
   iconType: image/png
