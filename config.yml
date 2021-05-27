@@ -27,12 +27,11 @@ params:
   disqusShortname: null
   timezoneString: PST
   logo: /images/uploads/wingmanlogo.svg
-  description_header: Information about <a class='text-grey-darkest' title='Visit
-    example.com' href='https://www.example.com/'>example</a> systems
-    operations.<br />Follow us <a class='text-grey-darkest' title='Visit our
-    page on Twitter' href='https://www.twitter.com/example'>on Twitter</a> or
-    subscribe to <a class='text-grey-darkest' href='%s' >RSS</a><br />to be
-    alerted of new events.
+  description_header: This status page provides updated information about the
+    operational status of various  <a class='text-grey-darkest' title='Wingman'
+    href='https://www.trywingman.com/'>Wingman</a> systems. If you are facing an
+    issue that is not reported here, please let us know at
+    support@trywingman.com
   copyrightHolder: Strings Systems Inc.
   eventsPerPage: 10
   iconType: image/png
