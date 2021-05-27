@@ -35,7 +35,7 @@ params:
     at support@trywingman.com
 
 
-    Subscribe to <a class='text-grey-darkest' href='%s'>RSS</a> 
+    Subscribe to <a class='text-grey-darkest' href='%s'>RSS</a> to be alerted of new events [coming soon].
   copyrightHolder: Strings Systems Inc.
   eventsPerPage: 10
   iconType: image/png
