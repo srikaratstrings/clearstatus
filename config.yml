@@ -1,19 +1,21 @@
-title: "Wingman: Real-time operational status"
+title: Wingman System Status
 baseURL: https://status.trywingman.com
 languageCode: en
 params:
   shortDateFormat: 15:04 — Jan 2
-  meta_description: This status page provides updated information about our
-    systems normal operation, incidents that may happen and their resolution. If
-    you are facing an issue that is not reported here, please let us know
-    at 	support@trywingman.com
+  meta_description: >-
+    Wingman System Status
+
+
+    Welcome to Wingman’s home for real-time and historical data on our system performance.
   systems:
     - name: AWS (us-east-1)
-      description: "Our cloud infrastructure provider:"
+      description: Our cloud infrastructure provider
       link: ""
     - name: Call Recorders
-      description: Our recording bots which join and record Video Conference Calls
-      link: https://support.example.com/
+      description: "Call Recorders: Our recording bots, which join and record video
+        conference calls"
+      link: ""
     - name: CRM Integrations
       description: Wingman's integration with CRMs to pull calls and update notes,
         comments etc
@@ -28,11 +30,8 @@ params:
   timezoneString: PST
   logo: /images/uploads/wingmanlogo.svg
   description_header: >-
-    This status page provides updated information about the operational status
-    of various  <a class='text-grey-darkest' title='Wingman'
-    href='https://www.trywingman.com/'>Wingman</a> systems. If you are facing an
-    issue that is not reported here, please let us know
-    at support@trywingman.com
+    If you are facing an issue that is not reported here, please let us know at
+    support@trywingman.com.
 
     <br/><br/>
 
@@ -44,5 +43,5 @@ params:
     - CRMIntegrations
   icon: /images/clearstatus.png
   description_footer: <a class='text-grey-darkest' title='Visit trywingman.com'
-    href='https://www.trywingman.com/'>Wingman</a> provides the best software
-    for sales professionals to close more deals.
+    href='https://www.trywingman.com/'>Wingman</a> helps sales teams pitch
+    better and close faster.
