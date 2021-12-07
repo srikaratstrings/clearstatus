@@ -12,5 +12,5 @@ affected:
   - AWS (us-east-1)
   - Call Recorders
 twitterFeed: ""
-enableComments: true
+enableComments: false
 ---
