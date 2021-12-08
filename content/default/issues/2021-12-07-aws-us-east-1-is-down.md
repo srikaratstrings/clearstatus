@@ -2,7 +2,7 @@
 section: issue
 title: AWS us-east-1 is down
 date: 2021-12-07T16:36:49.464Z
-status: in_progress
+status: resolved
 pinned: ""
 current_severity: down
 max_severity: down
